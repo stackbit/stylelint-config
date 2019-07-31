@@ -4,14 +4,8 @@ Stackbit's shareable config for stylelint
 
 ## Installation
 
-Install [stylelint](https://stylelint.io/), [prettier`](https://github.com/prettier/prettier) and `@stackbit/stylelint-config`:
+Install [stylelint](https://stylelint.io/), [prettier](https://github.com/prettier/prettier) and `@stackbit/stylelint-config`:
 
-**With Yarn**
-```
-yarn add --dev stylelint prettier @stackbit/stylelint-config
-```
-
-**With npm**
 ```
 npm install stylelint prettier @stackbit/stylelint-config --save-dev
 ```
@@ -27,17 +21,11 @@ Stackbit's stylelint rules come bundled in `@stackbit/stylelint-config`. To enab
 Now you can run stylelint by adding the following linting script to your `package.json`. See the [stylelint CLI docs](https://stylelint.io/user-guide/cli/) for more details.
 ```
 "scripts": {
-  "lint:css": "stylelint --fix '**/*.{css,scss}'"
+  "lint:css": "stylelint '**/*.{css,scss}'"
 }
 ```
 Run it:
 
-**With Yarn**
-```
-yarn run lint:css
-```
-
-**With npm**
 ```
 npm run lint:css
 ```
