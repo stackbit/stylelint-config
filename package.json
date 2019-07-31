@@ -6,11 +6,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/stackbithq/stylelint-config-stackbit.git"
+        "url": "https://github.com/stackbithq/stylelint-config.git"
     },
-    "homepage": "https://github.com/stackbithq/stylelint-config-stackbit#readme",
+    "homepage": "https://github.com/stackbithq/stylelint-config#readme",
     "bugs": {
-        "url": "https://github.com/stackbithq/stylelint-config-stackbit/issues"
+        "url": "https://github.com/stackbithq/stylelint-config/issues"
     },
     "engines": {
         "node": "^10.16.0",
@@ -38,6 +38,7 @@
         "stylelint": "^10.1.0"
     },
     "peerDependencies": {
+        "prettier": "1.18.2",
         "stylelint": "^10.1.0"
     }
 }
