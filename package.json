@@ -21,7 +21,8 @@
         "lint": "npm-run-all --parallel lint:*",
         "lint:js": "eslint --cache --fix --ext .js,.jsx .",
         "lint:css": "stylelint --fix \"**/*.{css,scss}\"",
-        "dry-release": "npmpub --dry --verbose"
+        "dry-release": "npmpub --dry --verbose",
+        "release": "npmpub"
     },
     "dependencies": {
         "stylelint-config-prettier": "^5.2.0",
