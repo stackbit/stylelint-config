@@ -4,7 +4,7 @@ Stackbit's shareable config for stylelint
 
 ## Installation
 
-Install [stylelint](https://stylelint.io/), [prettier](https://github.com/prettier/prettier) and `@stackbit/stylelint-config`:
+Install [stylelint](https://stylelint.io/), [prettier](https://prettier.io/) and `@stackbit/stylelint-config`:
 
 ```
 npm install stylelint prettier @stackbit/stylelint-config --save-dev
