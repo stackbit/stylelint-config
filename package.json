@@ -1,0 +1,42 @@
+{
+    "name": "@stackbit/stylelint-config",
+    "version": "0.1.0",
+    "description": "Stackbit's shareable config for stylelint",
+    "author": "Stackbit Inc.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stackbithq/stylelint-config-stackbit.git"
+    },
+    "homepage": "https://github.com/stackbithq/stylelint-config-stackbit#readme",
+    "bugs": {
+        "url": "https://github.com/stackbithq/stylelint-config-stackbit/issues"
+    },
+    "engines": {
+        "node": "^10.16.0",
+        "npm": "^6.9.0"
+    },
+    "main": "index.js",
+    "scripts": {
+        "lint": "npm-run-all --parallel lint:*",
+        "lint:js": "eslint --cache --fix --ext .js,.jsx .",
+        "lint:css": "stylelint --fix \"**/*.{css,scss}\"",
+        "dry-release": "npmpub --dry --verbose"
+    },
+    "dependencies": {
+        "stylelint-config-prettier": "^5.2.0",
+        "stylelint-config-standard": "^18.3.0",
+        "stylelint-prettier": "^1.1.1",
+        "stylelint-scss": "^3.9.2"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "npm-run-all": "^4.1.5",
+        "npmpub": "^4.1.0",
+        "prettier": "1.18.2",
+        "stylelint": "^10.1.0"
+    },
+    "peerDependencies": {
+        "stylelint": "^10.1.0"
+    }
+}
