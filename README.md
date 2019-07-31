@@ -1,4 +1,4 @@
-# stylelint-config [![NPM version](https://img.shields.io/npm/v/@stackbit/stylelint-config.svg)](https://www.npmjs.com/package/@stackbit/stylelint-config)
+# stylelint-config
 
 Stackbit's shareable config for stylelint
 
