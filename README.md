@@ -1,14 +1,18 @@
-# stylelint-config
+# stylelint-config [![NPM version](https://img.shields.io/npm/v/@stackbit/stylelint-config.svg)](https://www.npmjs.com/package/@stackbit/stylelint-config)
 
-Stackbit's [shareable config](https://stylelint.io/user-guide/configuration#extends) for stylelint
+Stackbit's [shareable config](https://stylelint.io/user-guide/configuration#extends) for [stylelint](https://stylelint.io/)
 
 ## Installation
 
-Install [stylelint](https://stylelint.io/), [prettier](https://prettier.io/) and `@stackbit/stylelint-config`:
+Install stylelint and `@stackbit/stylelint-config`:
 
 ```
-npm install stylelint prettier @stackbit/stylelint-config --save-dev
+npm install --save-dev stylelint @stackbit/stylelint-config
 ```
+
+### Prettier
+
+`@stackbit/eslint-config` should be used in conjunction with [Prettier](https://prettier.io/). See the [`@stackbit/prettier-config` installation guide](https://github.com/stackbithq/prettier-config#installation) for more details.
 
 ## Usage
 Stackbit's stylelint rules come bundled in `@stackbit/stylelint-config`. To enable these rules, add a `stylelint` property in your `package.json`. See the [stylelint configuration docs](https://stylelint.io/user-guide/configuration/) for more details.
@@ -23,7 +27,7 @@ Now you can run stylelint by adding the following linting script to your `packag
 
 ```
 "scripts": {
-  "lint:css": "stylelint '**/*.{css,scss}'"
+  "lint:css": "stylelint --fix '**/*.{css,scss}'"
 }
 ```
 
