@@ -23,18 +23,25 @@ Stackbit's stylelint rules come bundled in `@stackbit/stylelint-config`. To enab
 }
 ```
 
-Now you can run stylelint by adding the following linting script to your `package.json`. See the [stylelint CLI docs](https://stylelint.io/user-guide/cli/) for more details.
+Now you can run stylelint by adding the following scripts to your `package.json`. See the [stylelint CLI docs](https://stylelint.io/user-guide/cli/) for more details.
 
 ```
 "scripts": {
-  "lint:css": "stylelint --fix '**/*.{css,scss}'"
+  "lint:css": "stylelint '**/*.{css,scss}'",
+  "format:css": "npm run lint:css -- --fix"
 }
 ```
 
-Run it:
+Lint it:
 
 ```
 npm run lint:css
+```
+
+Format it:
+
+```
+npm run format:css
 ```
 
 ## [CHANGELOG](CHANGELOG.md)
