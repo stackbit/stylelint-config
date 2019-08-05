@@ -1,3 +1,7 @@
+# 1.1.0
+
+- Improves @if/@else statement formatting
+
 # 1.0.0
 
 - Improves usage instructions
