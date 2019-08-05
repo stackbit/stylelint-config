@@ -1,4 +1,4 @@
-# 1.1.2
+# 1.2.0
 
 - No longer require new line between comment and @ statement
 
