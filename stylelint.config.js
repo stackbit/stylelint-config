@@ -13,6 +13,7 @@ module.exports = {
         'at-rule-empty-line-before': [
             'always',
             {
+                except: ['blockless-after-same-name-blockless'],
                 ignore: ['first-nested'],
                 ignoreAtRules: ['else']
             }

@@ -1,3 +1,7 @@
+# 1.1.1
+
+- No longer require new line between @import
+
 # 1.1.0
 
 - Improves @if/@else statement formatting
