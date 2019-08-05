@@ -1,3 +1,7 @@
+# 1.1.2
+
+- No longer require new line between comment and @ statement
+
 # 1.1.1
 
 - No longer require new line between @import

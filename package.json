@@ -1,6 +1,6 @@
 {
     "name": "@stackbit/stylelint-config",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Stackbit's shareable config for stylelint",
     "author": "Stackbit Inc.",
     "license": "MIT",
